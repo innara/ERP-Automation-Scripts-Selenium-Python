@@ -8,8 +8,8 @@ driver = webdriver.Chrome()
 width = 2023.5
 height = 2643.35
 driver.set_window_size(width, height)
-driver.get('https://dev.j7konnect.com/login')
-driver.find_element(By.XPATH, '//*[@id="email"]').send_keys('Something')
+driver.get('Url')
+driver.find_element(By.XPATH, '//*[@id="email"]').send_keys('Something email')
 driver.find_element(By.XPATH, '//*[@id="login-password"]').send_keys('password')
 driver.find_element(By.XPATH, ' //*[@id="sign-in"]').click()
 time.sleep(4)

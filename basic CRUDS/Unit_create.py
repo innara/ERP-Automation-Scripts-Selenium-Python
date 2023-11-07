@@ -16,7 +16,7 @@ driver.execute_script("document.body.style.zoom='75%'")
 
 # Find the search box element and enter a search query
 email = driver.find_element(By.NAME, "email")
-email .send_keys("innara.karim2018@gmail.com")
+email .send_keys("-")
 password = driver.find_element(By.NAME, "password")
 password.send_keys("password")
 # Close the browser

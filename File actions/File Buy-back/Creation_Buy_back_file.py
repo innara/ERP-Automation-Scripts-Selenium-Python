@@ -6,13 +6,13 @@ from selenium.webdriver.support import expected_conditions as EC
 driver = webdriver.Chrome()
 driver.execute_script("document.body.style.zoom='70%'")
 
-driver.get("https://dev.j7konnect.com/login")
+driver.get("url")
 driver.maximize_window()
 driver.execute_script("document.body.style.zoom='75%'")
 
 # Find the search box element and enter a search query
 email = driver.find_element(By.NAME, "email")
-email.send_keys("salah@j7global.com")
+email.send_keys("-")
 password = driver.find_element(By.NAME, "Salah123456")
 password.send_keys("password")
 # Close the browser
